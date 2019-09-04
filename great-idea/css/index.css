@@ -364,3 +364,13 @@ footer {
 }
 
 /* MEDIA QUERIES */
+@media only screen and (max-width: 800px) {
+  .services-main-content,
+  .services-bottom-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
