@@ -246,13 +246,9 @@ header nav {
 /* TOP CONTENT */
 .top-content {
   display: flex;
-  padding: 3% 0;
-}
-
-.top-content {
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 3% 0;
 }
 
 .top-content .text-content {
@@ -296,3 +292,75 @@ header nav {
 footer {
   text-align: center;
 }
+
+/*** SERVICES PAGE ***/
+.services-image-header img {
+  width: 100%;
+  padding: 3% 0;
+}
+
+.services-heading {
+  display: flex;
+  padding: 0% 0% 3% 0%;
+  border-bottom: 1px solid #000;
+}
+
+.services-heading .text-content h1 {
+  font-size: 36px;
+}
+
+.services-main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+}
+
+.services-main-content .text-content {
+  border: 1px solid gray;
+  padding: 2%;
+  margin: 2% 0;
+  width: 45%;
+  background-color: #f4f3f4;
+  border: 1px solid #000;
+}
+
+.services-main-content .text-content p {
+  padding: 5% 2%;
+}
+
+.services-main-content .text-content button {
+  background-color: #fff;
+  padding: 3% 10%;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.services-main-content .text-content button:hover {
+  background: rgb(200, 200, 200);
+  cursor: pointer;
+  box-shadow: 1px 1px 15px gray;
+}
+
+.services-bottom-content {
+  display: flex;
+  padding: 3% 0;
+  justify-content: space-between;
+}
+
+.services-bottom-content .text-content {
+  padding-right: 3%;
+  width: 50%;
+}
+
+.services-bottom-content .text-content ul {
+  padding: 3% 0;
+  margin-left: 5%;
+}
+
+.services-bottom-content .text-content ul li {
+  list-style-type: square;
+  padding: 1%;
+}
+
+/* MEDIA QUERIES */
