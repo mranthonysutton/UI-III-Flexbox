@@ -253,6 +253,7 @@ header nav {
 
 .top-content .text-content {
   width: 50%;
+  padding: 0 3%;
 }
 
 .top
@@ -276,6 +277,7 @@ header nav {
 
 .bottom-content .text-content {
   width: 33%;
+  padding: 0 3%;
 }
 
 /* CONTACT SECTION */
